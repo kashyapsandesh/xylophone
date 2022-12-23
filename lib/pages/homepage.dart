@@ -36,7 +36,7 @@ class _HomePageState extends State<HomePage> {
               // await player.setSourceUrl();
               String localsource = 'sounds/note1.wav';
 
-              await player.play(DeviceFileSource(localsource));
+              await player.play(AssetSource(localsource));
             },
             child: const Text("Click Me"),
           ),
